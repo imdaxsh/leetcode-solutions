@@ -1,23 +1,24 @@
 class Solution {
 public:
-    double myPow(double x, int n) {
-//         double count =1;
-//         double ans;
-//         if(n==0)
-//             return count ;
-//         if(n<0){
-//             int z= abs(n);
-//              double q = pow(x, z);
-//              ans =1/q ;
+     double myPow(double x, int n) {
+
+//        // solution 1
+    // solution one doesn't works 
+//         double ans = 1.0 ;
+        
+//         for(int i=1 ;i <=abs(n) ;i++){
+            
+//             ans = ans*x;
 //         }
-//           else{
-//                ans = pow(x, n);  
-//           } 
-                 
+        
+//         if(n<0)
+//             ans = 1/ans ;
+        
         
 //         return ans;
-//     }
         
-        return (double) pow(x,n);
-    }
+//         // solution 2
+        return (double) pow(x,n);       // using STL function // only one line code
+     }
+  
 };
