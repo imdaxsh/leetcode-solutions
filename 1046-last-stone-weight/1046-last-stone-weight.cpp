@@ -13,5 +13,24 @@ public:
         if(!stones.empty())
             return stones[0];
         return 0;
+    
+//         int lastStoneWeight(vector<int>& s) {
+//         int n = s.size();
+//       while(n > 1){
+//             sort(s.begin(),s.end());
+//             if(s[n-1] == s[n-2])
+//                 s.erase(s.end()-2, s.end());
+            
+        
+//             else{
+//                 s.push_back(abs(s[n-1]-s[n-2]));
+//                 s.erase(s.end()-2,s.end());
+//             }
+//         }
+//             if(!s.empty())
+//             return s[0];
+//         return 0;
+        
     }
+    
 };
