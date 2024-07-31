@@ -3,13 +3,13 @@ class Solution {
 public:
     bool isPalindrome(int x) {
        long r=0;
-       long z=x; 
+       long z=x;
+             if(z<0) {z*=-1;}
         while(x){
              r=r*10 +x%10;
              x=x/10;
         }
-         if(z<0) {z*=-1;}
-        
+      
         
        return z==r;
        //    long t=0;
