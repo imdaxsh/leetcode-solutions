@@ -12,14 +12,6 @@ public:
       
         
        return z==r;
-       //    long t=0;
-       //  long v=x;
-       //  if(v<0) v*=-1; 
-       //  while(x){
-       //      t=t*10 + (x%10);
-       //      x/=10;
-       //  }
-       // //  cout<< 3%10<<"\n"<< -3%10; 
-       //  return t==v;
+   
     }
 };
